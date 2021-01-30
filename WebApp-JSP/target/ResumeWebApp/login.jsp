@@ -1,0 +1,28 @@
+<%@ page contentType="text/html; charset=UTF-8" language="java"%>
+<html>
+<head>
+    <title> login</title>
+    <link rel="stylesheet" href="assets/css/users.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body class="login_background ">
+<form action="login" method="POST">
+    <div class="col-4 container login_fix_">
+
+            <h1 style="color: black;">Login:</h1>
+
+        <div class="form-group">
+            <label style="color: black;">Email address</label>
+            <input type="email"  class="form-control" placeholder="email@example.com" name="email" />
+        </div>
+        <div class="form-group">
+            <label style="color: black;">Password</label>
+            <input type="password"  class="form-control" placeholder="Password" name="password"   />
+        </div>
+        <button type="submit" name="login" class="btn btn-primary">Login</button>
+    </div>
+</form>
+</body>
+</html>
